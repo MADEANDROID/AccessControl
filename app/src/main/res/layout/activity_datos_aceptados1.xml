@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DatosAceptados1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO EXITOSO"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Su registro ha sido guardado exitosamente.
+RECOMENDACIONES: antes de ingresar al evento se le ruega mantener activo su NFC.
+MODO DE USO: Cada que usted ingrese a un determinado taller o laboratorio simplemente debe acercar su dispositivo a lector.
+
+        SI USTED NO CUENTA CON NFC el dia del evento se le entregara un tag para que pueda asistir y difrutar de los talleres y laboratorios y asi pueda tener una maravillosa experiencia.  "
+        android:textSize="15dp"
+        android:textColor="#070707"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        />
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="ACEPTAR"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:onClick="onClick"
+            />
+
+</LinearLayout>
